@@ -1,0 +1,105 @@
+body{
+  font-family: 'Kanit', sans-serif;
+  background-color: #FFC4C4;
+  background-image: url(Assets/2070.jpg);
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+h1{
+font-family: 'Monofett', cursive;
+color:#F2D7D9;
+font-size:50px;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left:5%;
+  padding-right:5%;
+  height:15vh;
+}
+
+.logo{
+
+}
+
+.top-line{
+
+}
+
+.mid{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  height:75vh;
+  padding-left:2%;
+  padding-right:2%;
+}
+
+.Main-Music{
+  width:50vh;
+  height:30vh;
+  border:1px solid white;
+  color:white;
+  display:flex;
+  flex-direction:column;
+}
+
+.top-music{
+  display: flex;
+  align-items:center;
+  height:20vh;
+  justify-content:center;
+  gap:5vh;
+}
+
+.music-button{
+  display: flex;
+  align-items:center;
+  justify-content:space-around;
+  padding-top:2vh;
+}
+
+.bot-music{
+  text-align: center;
+  padding-top:4vh;
+}
+
+.cd-image{
+  height:100px;
+  width:100px;
+  border-radius:100%;}
+
+.quote{
+  width:50vh;
+  text-align:center;
+}
+
+.Add-Button{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height:60vh;
+  margin: 10vh;
+}
+
+.footer{
+  height:10vh;
+  color:white;
+}
+
+.rotate {
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
